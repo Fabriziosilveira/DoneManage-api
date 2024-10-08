@@ -1,0 +1,21 @@
+export enum ErrorMessage{
+    invalidZipCodeFormat = 'Invalid zip code format.',
+    invalidEmailFormat = 'Email format are invalid.',
+    invalidCNPJLength = 'Invalid CNPJ format.',
+    invalidCNPJNumber = 'Invalid CNPJ number.',
+    invalidImageURLFormat = 'Image url invalid.',
+    passwordIstooShort = `Password must have length greater than 8.`,
+    passwordHasntUppercase = `At least one capital letter is required in password.`,
+    passwordHasntNumber = `At least one number is required in password.`,
+    passwordHasntSpecialChar = `At least one special character is required in password.`,
+    emptyCNPJValue = 'CNPJ value cannot be empty.',
+    emptyNameValue = 'Name value cannot be empty.',
+    emptyEmailValue = 'Email value cannot be empty.',
+    emptyPasswordValue = 'Password value cannot be empty.',
+    emptyImageURLValue = 'ImageURL value cannot be empty.',
+    emptyZipCodeValue = 'ZipCode value cannot be empty.',
+    EmployeeMustBePositive = 'The Maximum Employee value must be positive.',
+    EmployeeMustBeInteger = 'The maximum Employee valeu must be integer.',
+    tierValueIsInvalid = 'Tier value is invalid.',
+    apiPOrtIsInvalid = 'Invalida port.'
+};
